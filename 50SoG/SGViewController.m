@@ -19,16 +19,9 @@
 @implementation SGViewController
 
 - (void) loadView {
-//    UIView *shadesView = [[SG50View alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
-    UIView *mainView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
-    mainView.backgroundColor = [UIColor redColor];
-    UIView *shadesView = [[SG50View alloc] initWithFrame:CGRectMake(0, 0, 57, 57)];
-
-//    shadesView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    shadesView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleLeftMargin;
-    shadesView.center = mainView.center;
-    [mainView addSubview:shadesView];
-    self.view = mainView;
+    UIView *shadesView = [[SG50View alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+    shadesView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    self.view = shadesView;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
