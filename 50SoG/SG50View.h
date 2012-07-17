@@ -1,5 +1,5 @@
 //
-//  SGViewController.h
+//  SG50View.h
 //  50SoG
 //
 //  Created by Alexander v. Below on 17.07.12.
@@ -11,6 +11,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SGViewController : UIViewController
+@interface SG50View : UIView
 
 @end
