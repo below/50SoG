@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB08722117D5F5EA00B493BB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB08722017D5F5EA00B493BB /* Default@2x.png */; };
 		CB30EFBE15B557C400F5977D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB30EFBD15B557C400F5977D /* UIKit.framework */; };
 		CB30EFC015B557C400F5977D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB30EFBF15B557C400F5977D /* Foundation.framework */; };
 		CB30EFC215B557C400F5977D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB30EFC115B557C400F5977D /* CoreGraphics.framework */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB08722017D5F5EA00B493BB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		CB30EFB915B557C400F5977D /* 50SoG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 50SoG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB30EFBD15B557C400F5977D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB30EFBF15B557C400F5977D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,6 +102,7 @@
 		CB30EFC415B557C400F5977D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB08722017D5F5EA00B493BB /* Default@2x.png */,
 				CB30EFE215B563ED00F5977D /* Icon.png */,
 				CB30EFE415B563F100F5977D /* Icon@2x.png */,
 				CB30EFE615B563F600F5977D /* Icon-72.png */,
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB08722117D5F5EA00B493BB /* Default@2x.png in Resources */,
 				CB30EFC815B557C400F5977D /* InfoPlist.strings in Resources */,
 				CB30EFE115B5623F00F5977D /* Icon-72@2x.png in Resources */,
 				CB30EFE315B563ED00F5977D /* Icon.png in Resources */,
@@ -288,6 +292,7 @@
 				CB30EFDC15B557C500F5977D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
