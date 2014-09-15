@@ -20,6 +20,7 @@
 		CB30EFE315B563ED00F5977D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB30EFE215B563ED00F5977D /* Icon.png */; };
 		CB30EFE515B563F100F5977D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB30EFE415B563F100F5977D /* Icon@2x.png */; };
 		CB30EFE715B563F600F5977D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = CB30EFE615B563F600F5977D /* Icon-72.png */; };
+		CB58292319C79F4200B6F35D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB58292219C79F4200B6F35D /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		CB30EFE215B563ED00F5977D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 		CB30EFE415B563F100F5977D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 		CB30EFE615B563F600F5977D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
+		CB58292219C79F4200B6F35D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				CB30EFC615B557C400F5977D /* InfoPlist.strings */,
 				CB30EFC915B557C400F5977D /* main.m */,
 				CB30EFCB15B557C400F5977D /* 50SoG-Prefix.pch */,
+				CB58292219C79F4200B6F35D /* Launch Screen.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				CB30EFE115B5623F00F5977D /* Icon-72@2x.png in Resources */,
 				CB30EFE315B563ED00F5977D /* Icon.png in Resources */,
 				CB30EFE515B563F100F5977D /* Icon@2x.png in Resources */,
+				CB58292319C79F4200B6F35D /* Launch Screen.xib in Resources */,
 				CB30EFE715B563F600F5977D /* Icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
