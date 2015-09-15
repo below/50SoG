@@ -10,26 +10,11 @@
  */
 
 #import "SG50View.h"
+#import "SGDraw.h"
 
 @implementation SG50View
 
-- (void)drawRect:(CGRect)rect
-{
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
-    CGFloat fullWidth = self.bounds.size.width;
-    CGFloat oneShadeWidth = fullWidth / 50.0;
-    
-    int shade;
-    int firstShade = floor (rect.origin.x * 50.0 / fullWidth);
-    int lastShade = floor (CGRectGetMaxX(rect) * 50.0 / fullWidth);
-    for (shade = firstShade; shade <= lastShade; shade ++) 
-    {
-        CGFloat grey = 1.0 - shade / 49.0;
-        UIColor *shadeOfGrey = [UIColor colorWithWhite:grey alpha:1.0];
-        [shadeOfGrey set];
-        CGContextAddRect(ctx, CGRectMake(shade*oneShadeWidth, rect.origin.y, oneShadeWidth + 2, rect.size.height));
-        CGContextFillPath(ctx);
-    }
+- (void) drawRect:(CGRect)rect {
+    drawShades(rect, self.bounds);
 }
-
 @end
