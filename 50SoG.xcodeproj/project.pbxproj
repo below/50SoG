@@ -30,6 +30,8 @@
 		CB58292319C79F4200B6F35D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB58292219C79F4200B6F35D /* Launch Screen.xib */; };
 		CB883DD41BA8BF5500370B67 /* SGDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = CB883DD31BA8BF5500370B67 /* SGDraw.m */; };
 		CB883DD51BA8BF5500370B67 /* SGDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = CB883DD31BA8BF5500370B67 /* SGDraw.m */; };
+		CBE70BBF2280DEAC00C3A3E8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70BBE2280DEAC00C3A3E8 /* main.swift */; };
+		CBE70BC32280DEC500C3A3E8 /* SGDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = CB883DD31BA8BF5500370B67 /* SGDraw.m */; };
 		CBFA8C451BA8C7DF0077A257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA8C441BA8C7DF0077A257 /* main.m */; };
 		CBFA8C481BA8C7DF0077A257 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA8C471BA8C7DF0077A257 /* AppDelegate.m */; };
 		CBFA8C4B1BA8C7DF0077A257 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA8C4A1BA8C7DF0077A257 /* ViewController.m */; };
@@ -79,6 +81,15 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBE70BBA2280DEAC00C3A3E8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +126,9 @@
 		CB58292219C79F4200B6F35D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		CB883DD31BA8BF5500370B67 /* SGDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDraw.m; sourceTree = "<group>"; };
 		CB883DD61BA8BF9800370B67 /* SGDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGDraw.h; sourceTree = "<group>"; };
+		CBE70BBC2280DEAC00C3A3E8 /* 50SoGMaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 50SoGMaker; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE70BBE2280DEAC00C3A3E8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CBE70BC92280E77800C3A3E8 /* 50SoGMaker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "50SoGMaker-Bridging-Header.h"; sourceTree = "<group>"; };
 		CBFA8C411BA8C7DF0077A257 /* 50SoG tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "50SoG tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFA8C441BA8C7DF0077A257 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBFA8C461BA8C7DF0077A257 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -141,6 +155,13 @@
 				CB30EFBE15B557C400F5977D /* UIKit.framework in Frameworks */,
 				CB30EFC015B557C400F5977D /* Foundation.framework in Frameworks */,
 				CB30EFC215B557C400F5977D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE70BB92280DEAC00C3A3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +205,7 @@
 				CB23B6251BA61852006DDF99 /* 50SoG WatchKit */,
 				CB23B6341BA61852006DDF99 /* 50SoG WatchKit Extension */,
 				CBFA8C421BA8C7DF0077A257 /* 50SoG tvOS */,
+				CBE70BBD2280DEAC00C3A3E8 /* 50SoGMaker */,
 				CB30EFBC15B557C400F5977D /* Frameworks */,
 				CB30EFBA15B557C400F5977D /* Products */,
 			);
@@ -196,6 +218,7 @@
 				CB23B6241BA61852006DDF99 /* 50SoG WatchKit.app */,
 				CB23B6301BA61852006DDF99 /* 50SoG WatchKit Extension.appex */,
 				CBFA8C411BA8C7DF0077A257 /* 50SoG tvOS.app */,
+				CBE70BBC2280DEAC00C3A3E8 /* 50SoGMaker */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,6 +264,15 @@
 				CB58292219C79F4200B6F35D /* Launch Screen.xib */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBE70BBD2280DEAC00C3A3E8 /* 50SoGMaker */ = {
+			isa = PBXGroup;
+			children = (
+				CBE70BBE2280DEAC00C3A3E8 /* main.swift */,
+				CBE70BC92280E77800C3A3E8 /* 50SoGMaker-Bridging-Header.h */,
+			);
+			path = 50SoGMaker;
 			sourceTree = "<group>";
 		};
 		CBFA8C421BA8C7DF0077A257 /* 50SoG tvOS */ = {
@@ -322,6 +354,23 @@
 			productReference = CB30EFB915B557C400F5977D /* 50SoG.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CBE70BBB2280DEAC00C3A3E8 /* 50SoGMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE70BC02280DEAC00C3A3E8 /* Build configuration list for PBXNativeTarget "50SoGMaker" */;
+			buildPhases = (
+				CBE70BB82280DEAC00C3A3E8 /* Sources */,
+				CBE70BB92280DEAC00C3A3E8 /* Frameworks */,
+				CBE70BBA2280DEAC00C3A3E8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 50SoGMaker;
+			productName = 50SoGMaker;
+			productReference = CBE70BBC2280DEAC00C3A3E8 /* 50SoGMaker */;
+			productType = "com.apple.product-type.tool";
+		};
 		CBFA8C401BA8C7DF0077A257 /* 50SoG tvOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBFA8C611BA8C7DF0077A257 /* Build configuration list for PBXNativeTarget "50SoG tvOS" */;
@@ -346,6 +395,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SG;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "AVB Software";
 				TargetAttributes = {
@@ -354,6 +404,11 @@
 					};
 					CB23B62F1BA61852006DDF99 = {
 						CreatedOnToolsVersion = 7.0;
+					};
+					CBE70BBB2280DEAC00C3A3E8 = {
+						CreatedOnToolsVersion = 10.2;
+						DevelopmentTeam = M3DTZN9V9B;
+						ProvisioningStyle = Automatic;
 					};
 					CBFA8C401BA8C7DF0077A257 = {
 						CreatedOnToolsVersion = 7.1;
@@ -377,6 +432,7 @@
 				CB23B6231BA61852006DDF99 /* 50SoG WatchKit */,
 				CB23B62F1BA61852006DDF99 /* 50SoG WatchKit Extension */,
 				CBFA8C401BA8C7DF0077A257 /* 50SoG tvOS */,
+				CBE70BBB2280DEAC00C3A3E8 /* 50SoGMaker */,
 			);
 		};
 /* End PBXProject section */
@@ -444,6 +500,15 @@
 				CB30EFCE15B557C400F5977D /* SGAppDelegate.m in Sources */,
 				CB30EFD115B557C400F5977D /* SGViewController.m in Sources */,
 				CB30EFDF15B5582B00F5977D /* SG50View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE70BB82280DEAC00C3A3E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE70BBF2280DEAC00C3A3E8 /* main.swift in Sources */,
+				CBE70BC32280DEC500C3A3E8 /* SGDraw.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,6 +834,71 @@
 			};
 			name = Release;
 		};
+		CBE70BC12280DEAC00C3A3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M3DTZN9V9B;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "50SoGMaker/50SoGMaker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CBE70BC22280DEAC00C3A3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M3DTZN9V9B;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "50SoGMaker/50SoGMaker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		CBFA8C5D1BA8C7DF0077A257 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -854,6 +984,15 @@
 			buildConfigurations = (
 				CB30EFDB15B557C500F5977D /* Debug */,
 				CB30EFDC15B557C500F5977D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE70BC02280DEAC00C3A3E8 /* Build configuration list for PBXNativeTarget "50SoGMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE70BC12280DEAC00C3A3E8 /* Debug */,
+				CBE70BC22280DEAC00C3A3E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
