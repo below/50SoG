@@ -29,7 +29,6 @@
 		CB58292319C79F4200B6F35D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB58292219C79F4200B6F35D /* Launch Screen.xib */; };
 		CBD0DFF122A85C97009EB856 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
 		CBD0DFF322A85C97009EB856 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
-		CBD0DFF422A85C97009EB856 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
 		CBD0DFF622A85DAD009EB856 /* SGDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF522A85DAD009EB856 /* SGDraw.swift */; };
 		CBD0DFF722A85DAD009EB856 /* SGDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF522A85DAD009EB856 /* SGDraw.swift */; };
 		CBD0DFF822A85DAD009EB856 /* SGDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF522A85DAD009EB856 /* SGDraw.swift */; };
@@ -130,7 +129,6 @@
 		CBD0DFF522A85DAD009EB856 /* SGDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGDraw.swift; sourceTree = "<group>"; };
 		CBE70BBC2280DEAC00C3A3E8 /* 50SoGMaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 50SoGMaker; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE70BBE2280DEAC00C3A3E8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		CBE70BC92280E77800C3A3E8 /* 50SoGMaker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "50SoGMaker-Bridging-Header.h"; sourceTree = "<group>"; };
 		CBFA8C411BA8C7DF0077A257 /* 50SoG tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "50SoG tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFA8C441BA8C7DF0077A257 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBFA8C461BA8C7DF0077A257 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -273,7 +271,6 @@
 			isa = PBXGroup;
 			children = (
 				CBE70BBE2280DEAC00C3A3E8 /* main.swift */,
-				CBE70BC92280E77800C3A3E8 /* 50SoGMaker-Bridging-Header.h */,
 			);
 			path = 50SoGMaker;
 			sourceTree = "<group>";
@@ -517,7 +514,6 @@
 			files = (
 				CBE70BBF2280DEAC00C3A3E8 /* main.swift in Sources */,
 				CBD0DFF922A85DAD009EB856 /* SGDraw.swift in Sources */,
-				CBD0DFF422A85C97009EB856 /* SG50View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -885,7 +881,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "50SoGMaker/50SoGMaker-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -918,7 +913,6 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "50SoGMaker/50SoGMaker-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 			};
