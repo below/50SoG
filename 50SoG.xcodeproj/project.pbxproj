@@ -22,23 +22,24 @@
 		CB30EFCA15B557C400F5977D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB30EFC915B557C400F5977D /* main.m */; };
 		CB30EFCE15B557C400F5977D /* SGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB30EFCD15B557C400F5977D /* SGAppDelegate.m */; };
 		CB30EFD115B557C400F5977D /* SGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB30EFD015B557C400F5977D /* SGViewController.m */; };
-		CB30EFDF15B5582B00F5977D /* SG50View.m in Sources */ = {isa = PBXBuildFile; fileRef = CB30EFDE15B5582B00F5977D /* SG50View.m */; };
 		CB30EFE115B5623F00F5977D /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB30EFE015B5623F00F5977D /* Icon-72@2x.png */; };
 		CB30EFE315B563ED00F5977D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB30EFE215B563ED00F5977D /* Icon.png */; };
 		CB30EFE515B563F100F5977D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB30EFE415B563F100F5977D /* Icon@2x.png */; };
 		CB30EFE715B563F600F5977D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = CB30EFE615B563F600F5977D /* Icon-72.png */; };
 		CB58292319C79F4200B6F35D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB58292219C79F4200B6F35D /* Launch Screen.xib */; };
-		CB883DD41BA8BF5500370B67 /* SGDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = CB883DD31BA8BF5500370B67 /* SGDraw.m */; };
-		CB883DD51BA8BF5500370B67 /* SGDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = CB883DD31BA8BF5500370B67 /* SGDraw.m */; };
+		CBD0DFF122A85C97009EB856 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
+		CBD0DFF322A85C97009EB856 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
+		CBD0DFF422A85C97009EB856 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
+		CBD0DFF622A85DAD009EB856 /* SGDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF522A85DAD009EB856 /* SGDraw.swift */; };
+		CBD0DFF722A85DAD009EB856 /* SGDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF522A85DAD009EB856 /* SGDraw.swift */; };
+		CBD0DFF822A85DAD009EB856 /* SGDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF522A85DAD009EB856 /* SGDraw.swift */; };
+		CBD0DFF922A85DAD009EB856 /* SGDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF522A85DAD009EB856 /* SGDraw.swift */; };
 		CBE70BBF2280DEAC00C3A3E8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70BBE2280DEAC00C3A3E8 /* main.swift */; };
-		CBE70BC32280DEC500C3A3E8 /* SGDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = CB883DD31BA8BF5500370B67 /* SGDraw.m */; };
 		CBFA8C451BA8C7DF0077A257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA8C441BA8C7DF0077A257 /* main.m */; };
 		CBFA8C481BA8C7DF0077A257 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA8C471BA8C7DF0077A257 /* AppDelegate.m */; };
 		CBFA8C4B1BA8C7DF0077A257 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA8C4A1BA8C7DF0077A257 /* ViewController.m */; };
 		CBFA8C4E1BA8C7DF0077A257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFA8C4C1BA8C7DF0077A257 /* Main.storyboard */; };
 		CBFA8C501BA8C7DF0077A257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFA8C4F1BA8C7DF0077A257 /* Assets.xcassets */; };
-		CBFA8C631BA8C8170077A257 /* SG50View.m in Sources */ = {isa = PBXBuildFile; fileRef = CB30EFDE15B5582B00F5977D /* SG50View.m */; };
-		CBFA8C641BA8C8170077A257 /* SGDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = CB883DD31BA8BF5500370B67 /* SGDraw.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,15 +118,16 @@
 		CB30EFCD15B557C400F5977D /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
 		CB30EFCF15B557C400F5977D /* SGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGViewController.h; sourceTree = "<group>"; };
 		CB30EFD015B557C400F5977D /* SGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGViewController.m; sourceTree = "<group>"; };
-		CB30EFDD15B5582B00F5977D /* SG50View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SG50View.h; sourceTree = "<group>"; };
-		CB30EFDE15B5582B00F5977D /* SG50View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SG50View.m; sourceTree = "<group>"; };
 		CB30EFE015B5623F00F5977D /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "../Icon-72@2x.png"; sourceTree = "<group>"; };
 		CB30EFE215B563ED00F5977D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 		CB30EFE415B563F100F5977D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 		CB30EFE615B563F600F5977D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
 		CB58292219C79F4200B6F35D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
-		CB883DD31BA8BF5500370B67 /* SGDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDraw.m; sourceTree = "<group>"; };
-		CB883DD61BA8BF9800370B67 /* SGDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGDraw.h; sourceTree = "<group>"; };
+		CBD0DFED22A85C97009EB856 /* 50SoG-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "50SoG-Bridging-Header.h"; sourceTree = "<group>"; };
+		CBD0DFEE22A85C97009EB856 /* 50SoG WatchKit Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "50SoG WatchKit Extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		CBD0DFEF22A85C97009EB856 /* 50SoG tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "50SoG tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		CBD0DFF022A85C97009EB856 /* SG50View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SG50View.swift; sourceTree = "<group>"; };
+		CBD0DFF522A85DAD009EB856 /* SGDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGDraw.swift; sourceTree = "<group>"; };
 		CBE70BBC2280DEAC00C3A3E8 /* 50SoGMaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 50SoGMaker; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE70BBE2280DEAC00C3A3E8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CBE70BC92280E77800C3A3E8 /* 50SoGMaker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "50SoGMaker-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -240,11 +242,12 @@
 				CB30EFCD15B557C400F5977D /* SGAppDelegate.m */,
 				CB30EFCF15B557C400F5977D /* SGViewController.h */,
 				CB30EFD015B557C400F5977D /* SGViewController.m */,
-				CB30EFDD15B5582B00F5977D /* SG50View.h */,
-				CB30EFDE15B5582B00F5977D /* SG50View.m */,
-				CB883DD61BA8BF9800370B67 /* SGDraw.h */,
-				CB883DD31BA8BF5500370B67 /* SGDraw.m */,
+				CBD0DFF022A85C97009EB856 /* SG50View.swift */,
+				CBD0DFF522A85DAD009EB856 /* SGDraw.swift */,
 				CB30EFC415B557C400F5977D /* Supporting Files */,
+				CBD0DFED22A85C97009EB856 /* 50SoG-Bridging-Header.h */,
+				CBD0DFEE22A85C97009EB856 /* 50SoG WatchKit Extension-Bridging-Header.h */,
+				CBD0DFEF22A85C97009EB856 /* 50SoG tvOS-Bridging-Header.h */,
 			);
 			path = 50SoG;
 			sourceTree = "<group>";
@@ -404,6 +407,10 @@
 					};
 					CB23B62F1BA61852006DDF99 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 1020;
+					};
+					CB30EFB815B557C400F5977D = {
+						LastSwiftMigration = 1020;
 					};
 					CBE70BBB2280DEAC00C3A3E8 = {
 						CreatedOnToolsVersion = 10.2;
@@ -412,6 +419,7 @@
 					};
 					CBFA8C401BA8C7DF0077A257 = {
 						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -487,7 +495,7 @@
 			files = (
 				CB23B63A1BA61852006DDF99 /* ExtensionDelegate.m in Sources */,
 				CB23B6371BA61852006DDF99 /* InterfaceController.m in Sources */,
-				CB883DD51BA8BF5500370B67 /* SGDraw.m in Sources */,
+				CBD0DFF722A85DAD009EB856 /* SGDraw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,11 +503,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB883DD41BA8BF5500370B67 /* SGDraw.m in Sources */,
 				CB30EFCA15B557C400F5977D /* main.m in Sources */,
 				CB30EFCE15B557C400F5977D /* SGAppDelegate.m in Sources */,
 				CB30EFD115B557C400F5977D /* SGViewController.m in Sources */,
-				CB30EFDF15B5582B00F5977D /* SG50View.m in Sources */,
+				CBD0DFF622A85DAD009EB856 /* SGDraw.swift in Sources */,
+				CBD0DFF122A85C97009EB856 /* SG50View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,7 +516,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBE70BBF2280DEAC00C3A3E8 /* main.swift in Sources */,
-				CBE70BC32280DEC500C3A3E8 /* SGDraw.m in Sources */,
+				CBD0DFF922A85DAD009EB856 /* SGDraw.swift in Sources */,
+				CBD0DFF422A85C97009EB856 /* SG50View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,11 +525,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBFA8C641BA8C8170077A257 /* SGDraw.m in Sources */,
 				CBFA8C4B1BA8C7DF0077A257 /* ViewController.m in Sources */,
 				CBFA8C481BA8C7DF0077A257 /* AppDelegate.m in Sources */,
 				CBFA8C451BA8C7DF0077A257 /* main.m in Sources */,
-				CBFA8C631BA8C8170077A257 /* SG50View.m in Sources */,
+				CBD0DFF822A85DAD009EB856 /* SGDraw.swift in Sources */,
+				CBD0DFF322A85C97009EB856 /* SG50View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +579,7 @@
 		CB23B6411BA61852006DDF99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -608,6 +618,7 @@
 		CB23B6421BA61852006DDF99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -675,6 +686,9 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "50SoG/50SoG WatchKit Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -712,6 +726,8 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "50SoG/50SoG WatchKit Extension-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -813,11 +829,16 @@
 		CB30EFDB15B557C500F5977D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "50SoG/50SoG-Prefix.pch";
 				INFOPLIST_FILE = "50SoG/50SoG-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vonbelow.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "50SoG/50SoG-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -825,11 +846,15 @@
 		CB30EFDC15B557C500F5977D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "50SoG/50SoG-Prefix.pch";
 				INFOPLIST_FILE = "50SoG/50SoG-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vonbelow.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "50SoG/50SoG-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -918,6 +943,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vonbelow.-0SoG-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "50SoG/50SoG tvOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -944,6 +972,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vonbelow.-0SoG-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "50SoG/50SoG tvOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
