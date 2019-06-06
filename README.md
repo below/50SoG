@@ -12,3 +12,8 @@ Even more News
 --------------
 
 Finally, 50 Shades of Grey is on your Apple TV (if you were lucky enough to get one)
+
+And yet even more News!
+-----------------------
+
+50 Shades of Grey will be much Swifter
