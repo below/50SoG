@@ -33,7 +33,7 @@ guard let data = rep.representation(using: .png, properties: [:]) else {
 }
 
 do {
-    let url = URL.init(fileURLWithPath: "/tmp/test.png")
+    let url = URL.init(fileURLWithPath: "\(sizeParameter).png")
     try data.write(to: url)
 }
 catch {

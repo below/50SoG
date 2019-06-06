@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB08722117D5F5EA00B493BB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB08722017D5F5EA00B493BB /* Default@2x.png */; };
 		CB23B6281BA61852006DDF99 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB23B6261BA61852006DDF99 /* Interface.storyboard */; };
 		CB23B62A1BA61852006DDF99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB23B6291BA61852006DDF99 /* Assets.xcassets */; };
 		CB23B6311BA61852006DDF99 /* 50SoG WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CB23B6301BA61852006DDF99 /* 50SoG WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -15,6 +14,7 @@
 		CB23B63A1BA61852006DDF99 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB23B6391BA61852006DDF99 /* ExtensionDelegate.m */; };
 		CB23B63C1BA61852006DDF99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB23B63B1BA61852006DDF99 /* Assets.xcassets */; };
 		CB23B6401BA61852006DDF99 /* 50SoG WatchKit.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CB23B6241BA61852006DDF99 /* 50SoG WatchKit.app */; };
+		CB30C40D22A8926A00E8CF65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB30C40C22A8926A00E8CF65 /* Images.xcassets */; };
 		CB30EFBE15B557C400F5977D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB30EFBD15B557C400F5977D /* UIKit.framework */; };
 		CB30EFC015B557C400F5977D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB30EFBF15B557C400F5977D /* Foundation.framework */; };
 		CB30EFC215B557C400F5977D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB30EFC115B557C400F5977D /* CoreGraphics.framework */; };
@@ -22,10 +22,6 @@
 		CB30EFCA15B557C400F5977D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB30EFC915B557C400F5977D /* main.m */; };
 		CB30EFCE15B557C400F5977D /* SGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB30EFCD15B557C400F5977D /* SGAppDelegate.m */; };
 		CB30EFD115B557C400F5977D /* SGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB30EFD015B557C400F5977D /* SGViewController.m */; };
-		CB30EFE115B5623F00F5977D /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB30EFE015B5623F00F5977D /* Icon-72@2x.png */; };
-		CB30EFE315B563ED00F5977D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB30EFE215B563ED00F5977D /* Icon.png */; };
-		CB30EFE515B563F100F5977D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB30EFE415B563F100F5977D /* Icon@2x.png */; };
-		CB30EFE715B563F600F5977D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = CB30EFE615B563F600F5977D /* Icon-72.png */; };
 		CB58292319C79F4200B6F35D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB58292219C79F4200B6F35D /* Launch Screen.xib */; };
 		CBD0DFF122A85C97009EB856 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
 		CBD0DFF322A85C97009EB856 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
@@ -93,7 +89,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CB08722017D5F5EA00B493BB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		CB23B6241BA61852006DDF99 /* 50SoG WatchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "50SoG WatchKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB23B6271BA61852006DDF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		CB23B6291BA61852006DDF99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,6 +100,7 @@
 		CB23B6391BA61852006DDF99 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
 		CB23B63B1BA61852006DDF99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB23B63D1BA61852006DDF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB30C40C22A8926A00E8CF65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CB30EFB915B557C400F5977D /* 50SoG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 50SoG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB30EFBD15B557C400F5977D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB30EFBF15B557C400F5977D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -117,10 +113,6 @@
 		CB30EFCD15B557C400F5977D /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
 		CB30EFCF15B557C400F5977D /* SGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGViewController.h; sourceTree = "<group>"; };
 		CB30EFD015B557C400F5977D /* SGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGViewController.m; sourceTree = "<group>"; };
-		CB30EFE015B5623F00F5977D /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "../Icon-72@2x.png"; sourceTree = "<group>"; };
-		CB30EFE215B563ED00F5977D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
-		CB30EFE415B563F100F5977D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
-		CB30EFE615B563F600F5977D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
 		CB58292219C79F4200B6F35D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		CBD0DFED22A85C97009EB856 /* 50SoG-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "50SoG-Bridging-Header.h"; sourceTree = "<group>"; };
 		CBD0DFEE22A85C97009EB856 /* 50SoG WatchKit Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "50SoG WatchKit Extension-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -246,6 +238,7 @@
 				CBD0DFED22A85C97009EB856 /* 50SoG-Bridging-Header.h */,
 				CBD0DFEE22A85C97009EB856 /* 50SoG WatchKit Extension-Bridging-Header.h */,
 				CBD0DFEF22A85C97009EB856 /* 50SoG tvOS-Bridging-Header.h */,
+				CB30C40C22A8926A00E8CF65 /* Images.xcassets */,
 			);
 			path = 50SoG;
 			sourceTree = "<group>";
@@ -253,11 +246,6 @@
 		CB30EFC415B557C400F5977D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB08722017D5F5EA00B493BB /* Default@2x.png */,
-				CB30EFE215B563ED00F5977D /* Icon.png */,
-				CB30EFE415B563F100F5977D /* Icon@2x.png */,
-				CB30EFE615B563F600F5977D /* Icon-72.png */,
-				CB30EFE015B5623F00F5977D /* Icon-72@2x.png */,
 				CB30EFC515B557C400F5977D /* 50SoG-Info.plist */,
 				CB30EFC615B557C400F5977D /* InfoPlist.strings */,
 				CB30EFC915B557C400F5977D /* main.m */,
@@ -464,13 +452,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB08722117D5F5EA00B493BB /* Default@2x.png in Resources */,
+				CB30C40D22A8926A00E8CF65 /* Images.xcassets in Resources */,
 				CB30EFC815B557C400F5977D /* InfoPlist.strings in Resources */,
-				CB30EFE115B5623F00F5977D /* Icon-72@2x.png in Resources */,
-				CB30EFE315B563ED00F5977D /* Icon.png in Resources */,
-				CB30EFE515B563F100F5977D /* Icon@2x.png in Resources */,
 				CB58292319C79F4200B6F35D /* Launch Screen.xib in Resources */,
-				CB30EFE715B563F600F5977D /* Icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -825,6 +809,7 @@
 		CB30EFDB15B557C500F5977D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "50SoG/50SoG-Prefix.pch";
@@ -842,6 +827,7 @@
 		CB30EFDC15B557C500F5977D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "50SoG/50SoG-Prefix.pch";
