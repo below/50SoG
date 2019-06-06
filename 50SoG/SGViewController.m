@@ -10,8 +10,7 @@
  */
 
 #import "SGViewController.h"
-#import "SG50View.h"
-
+#import "_0SoG-Swift.h"
 @interface SGViewController ()
 
 @end

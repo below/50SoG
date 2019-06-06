@@ -7,8 +7,8 @@
 //
 
 #import "InterfaceController.h"
-#import "SGDraw.h"
 #import <UIKit/UIKit.h>
+#import "_0SoG_WatchKit_Extension-Swift.h"
 
 @interface InterfaceController()
 @property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceImage *image;
@@ -25,7 +25,8 @@
     CGFloat screenScale = [WKInterfaceDevice currentDevice].screenScale;
     // 2
     UIGraphicsBeginImageContextWithOptions(screenBounds.size, YES, screenScale);
-    drawShades(screenBounds, screenBounds);
+    
+    [objcWrapper objcDrawShadesWithRect:screenBounds bounds:screenBounds];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     [self.image setImage:image];
