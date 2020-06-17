@@ -24,7 +24,7 @@ struct SG50View: View {
             ForEach((0...maxGrey).reversed(), id: \.self) {
                 ShadeOfGrey(grey: Double($0) / Double(self.maxGrey))
             }
-        }
+        }.edgesIgnoringSafeArea(.all)
     }
 }
 
