@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8191"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.70"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -13,209 +17,209 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H0e-zQ-fWJ">
                     <rect key="frame" x="0.0" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.97999999999999998" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.98000001907348633" green="0.98000001907348633" blue="0.98000001907348633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="6" id="Qqm-Gg-kbe"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Dl-eC-okk">
                     <rect key="frame" x="1862" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oIJ-Oi-uV8">
                     <rect key="frame" x="38" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.95999999999999996" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.95999997854232788" green="0.95999997854232788" blue="0.95999997854232788" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fTl-SI-sor">
                     <rect key="frame" x="76" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.93999999999999995" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.93999999761581421" green="0.93999999761581421" blue="0.93999999761581421" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ez-fd-bNm">
                     <rect key="frame" x="114" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.92000000000000004" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.92000001668930054" green="0.92000001668930054" blue="0.92000001668930054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NtO-jc-32C">
                     <rect key="frame" x="152" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.89999997615814209" green="0.89999997615814209" blue="0.89999997615814209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edR-Zu-W2X">
                     <rect key="frame" x="190" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.88" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.87999999523162842" green="0.87999999523162842" blue="0.87999999523162842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BWj-am-GAO">
                     <rect key="frame" x="228" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.85999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.86000001430511475" green="0.86000001430511475" blue="0.86000001430511475" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oaj-T3-VgB">
                     <rect key="frame" x="266" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.83999999999999997" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.8399999737739563" green="0.8399999737739563" blue="0.8399999737739563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5xc-gX-Xd6">
                     <rect key="frame" x="304" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.81999999999999995" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.81999999284744263" green="0.81999999284744263" blue="0.81999999284744263" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fw1-jA-ey3">
                     <rect key="frame" x="342" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.80000000000000004" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fag-3e-cLc">
                     <rect key="frame" x="380" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.78000000000000003" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.77999997138977051" green="0.77999997138977051" blue="0.77999997138977051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FRr-se-eoA">
                     <rect key="frame" x="418" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.76000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.75999999046325684" green="0.75999999046325684" blue="0.75999999046325684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ryk-xO-l9V">
                     <rect key="frame" x="456" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.73999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.74000000953674316" green="0.74000000953674316" blue="0.74000000953674316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXJ-Kg-AOo">
                     <rect key="frame" x="494" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.71999999999999997" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.72000002861022949" green="0.72000002861022949" blue="0.72000002861022949" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vgu-iv-zlW">
                     <rect key="frame" x="532" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.69999999999999996" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.69999998807907104" green="0.69999998807907104" blue="0.69999998807907104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="slk-IE-XdQ">
                     <rect key="frame" x="570" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.68000000000000005" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.68000000715255737" green="0.68000000715255737" blue="0.68000000715255737" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3hO-Qn-nF2">
                     <rect key="frame" x="608" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.66000000000000003" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.6600000262260437" green="0.6600000262260437" blue="0.6600000262260437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Wh-Ks-c7C">
                     <rect key="frame" x="646" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.64000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.63999998569488525" green="0.63999998569488525" blue="0.63999998569488525" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1NH-AR-ans">
                     <rect key="frame" x="684" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.62" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.62000000476837158" green="0.62000000476837158" blue="0.62000000476837158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bOw-jW-6nr">
                     <rect key="frame" x="722" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.59999999999999998" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.60000002384185791" green="0.60000002384185791" blue="0.60000002384185791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lWX-Nf-z5V">
                     <rect key="frame" x="760" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.57999999999999996" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.57999998331069946" green="0.57999998331069946" blue="0.57999998331069946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b2M-k5-oTy">
                     <rect key="frame" x="798" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.56000000000000005" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.56000000238418579" green="0.56000000238418579" blue="0.56000000238418579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vxJ-yQ-PKf">
                     <rect key="frame" x="836" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.54000000000000004" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.54000002145767212" green="0.54000002145767212" blue="0.54000002145767212" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="soJ-7x-adT">
                     <rect key="frame" x="874" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.52000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.51999998092651367" green="0.51999998092651367" blue="0.51999998092651367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kd7-UN-fWd">
                     <rect key="frame" x="912" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LaA-aM-L3H">
                     <rect key="frame" x="950" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.47999999999999998" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.47999998927116394" green="0.47999998927116394" blue="0.47999998927116394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0uN-Cr-rh1">
                     <rect key="frame" x="988" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.46000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.46000000834465027" green="0.46000000834465027" blue="0.46000000834465027" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TcH-fL-3Y5">
                     <rect key="frame" x="1026" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.44" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.43999999761581421" green="0.43999999761581421" blue="0.43999999761581421" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Slg-Sy-M0h">
                     <rect key="frame" x="1064" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.41999999999999998" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.41999998688697815" green="0.41999998688697815" blue="0.41999998688697815" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UEa-fw-UHJ">
                     <rect key="frame" x="1102" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.40000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dv6-9A-ZPA">
                     <rect key="frame" x="1140" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.38" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.37999999523162842" green="0.37999999523162842" blue="0.37999999523162842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JZ6-Nz-bK6">
                     <rect key="frame" x="1178" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.35999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.36000001430511475" green="0.36000001430511475" blue="0.36000001430511475" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="70b-a1-73W">
                     <rect key="frame" x="1216" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.34000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.34000000357627869" green="0.34000000357627869" blue="0.34000000357627869" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S4Z-kF-V0U">
                     <rect key="frame" x="1254" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.32000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.31999999284744263" green="0.31999999284744263" blue="0.31999999284744263" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TEi-Ni-FdZ">
                     <rect key="frame" x="1292" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.29999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.30000001192092896" green="0.30000001192092896" blue="0.30000001192092896" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SBp-JB-zDw">
                     <rect key="frame" x="1330" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.28000000000000003" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.2800000011920929" green="0.2800000011920929" blue="0.2800000011920929" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6VU-UG-mAi">
                     <rect key="frame" x="1368" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.26000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.25999999046325684" green="0.25999999046325684" blue="0.25999999046325684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XYO-uc-pQt">
                     <rect key="frame" x="1406" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.23999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.23999999463558197" green="0.23999999463558197" blue="0.23999999463558197" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="boe-DU-m5v">
                     <rect key="frame" x="1444" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.22" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.2199999988079071" green="0.2199999988079071" blue="0.2199999988079071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sUs-wn-7QS">
                     <rect key="frame" x="1482" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.20000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5aK-dq-fHv">
                     <rect key="frame" x="1520" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.17999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.18000000715255737" green="0.18000000715255737" blue="0.18000000715255737" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="APb-Go-Tij">
                     <rect key="frame" x="1558" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.16" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.15999999642372131" green="0.15999999642372131" blue="0.15999999642372131" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJK-wp-fkT">
                     <rect key="frame" x="1596" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.14000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.14000000059604645" green="0.14000000059604645" blue="0.14000000059604645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OuS-Cw-QYB">
                     <rect key="frame" x="1634" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.11999999731779099" green="0.11999999731779099" blue="0.11999999731779099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="euu-cu-0Kw">
                     <rect key="frame" x="1672" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.10000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.10000000149011612" green="0.10000000149011612" blue="0.10000000149011612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bKh-Gh-pPL">
                     <rect key="frame" x="1710" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.080000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.079999998211860657" green="0.079999998211860657" blue="0.079999998211860657" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PjJ-4n-Jlh">
                     <rect key="frame" x="1748" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.059999999999999998" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.059999998658895493" green="0.059999998658895493" blue="0.059999998658895493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TeC-bf-tcb">
                     <rect key="frame" x="1786" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.040000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.039999999105930328" green="0.039999999105930328" blue="0.039999999105930328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hkc-QR-DdC">
                     <rect key="frame" x="1824" y="0.0" width="38" height="480"/>
-                    <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.019999999552965164" green="0.019999999552965164" blue="0.019999999552965164" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="UEa-fw-UHJ" secondAttribute="bottom" id="01Y-mq-gKg"/>
                 <constraint firstAttribute="bottom" secondItem="SBp-JB-zDw" secondAttribute="bottom" id="06M-mB-5nY"/>
