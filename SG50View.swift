@@ -6,8 +6,6 @@
 //  Copyright © 2019 AVB Software. All rights reserved.
 //
 
-import UIKit
-
 import SwiftUI
 
 struct ShadeOfGrey: View {
