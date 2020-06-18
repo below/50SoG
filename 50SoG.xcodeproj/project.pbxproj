@@ -23,13 +23,10 @@
 		CB6ECF3F249AD3C0002C2832 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECF3E249AD3C0002C2832 /* HostingController.swift */; };
 		CB6ECF40249AD3D6002C2832 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
 		CB6ECF63249ADEE8002C2832 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECF62249ADEE8002C2832 /* Interface.storyboard */; };
+		CB6ECF7B249AE081002C2832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECF7A249AE081002C2832 /* AppDelegate.swift */; };
 		CBD0DFF122A85C97009EB856 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
 		CBD0DFF322A85C97009EB856 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
 		CBE70BBF2280DEAC00C3A3E8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70BBE2280DEAC00C3A3E8 /* main.swift */; };
-		CBFA8C451BA8C7DF0077A257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA8C441BA8C7DF0077A257 /* main.m */; };
-		CBFA8C481BA8C7DF0077A257 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA8C471BA8C7DF0077A257 /* AppDelegate.m */; };
-		CBFA8C4B1BA8C7DF0077A257 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA8C4A1BA8C7DF0077A257 /* ViewController.m */; };
-		CBFA8C4E1BA8C7DF0077A257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFA8C4C1BA8C7DF0077A257 /* Main.storyboard */; };
 		CBFA8C501BA8C7DF0077A257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFA8C4F1BA8C7DF0077A257 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -104,16 +101,11 @@
 		CB6ECEE2249AD175002C2832 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		CB6ECF3E249AD3C0002C2832 /* HostingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		CB6ECF62249ADEE8002C2832 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		CB6ECF7A249AE081002C2832 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBD0DFF022A85C97009EB856 /* SG50View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SG50View.swift; sourceTree = "<group>"; };
 		CBE70BBC2280DEAC00C3A3E8 /* 50SoGMaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 50SoGMaker; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE70BBE2280DEAC00C3A3E8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CBFA8C411BA8C7DF0077A257 /* 50SoG tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "50SoG tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBFA8C441BA8C7DF0077A257 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CBFA8C461BA8C7DF0077A257 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CBFA8C471BA8C7DF0077A257 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CBFA8C491BA8C7DF0077A257 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CBFA8C4A1BA8C7DF0077A257 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CBFA8C4D1BA8C7DF0077A257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBFA8C4F1BA8C7DF0077A257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBFA8C511BA8C7DF0077A257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -242,24 +234,11 @@
 		CBFA8C421BA8C7DF0077A257 /* 50SoG tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				CBFA8C461BA8C7DF0077A257 /* AppDelegate.h */,
-				CBFA8C471BA8C7DF0077A257 /* AppDelegate.m */,
-				CBFA8C491BA8C7DF0077A257 /* ViewController.h */,
-				CBFA8C4A1BA8C7DF0077A257 /* ViewController.m */,
-				CBFA8C4C1BA8C7DF0077A257 /* Main.storyboard */,
+				CB6ECF7A249AE081002C2832 /* AppDelegate.swift */,
 				CBFA8C4F1BA8C7DF0077A257 /* Assets.xcassets */,
 				CBFA8C511BA8C7DF0077A257 /* Info.plist */,
-				CBFA8C431BA8C7DF0077A257 /* Supporting Files */,
 			);
 			path = "50SoG tvOS";
-			sourceTree = "<group>";
-		};
-		CBFA8C431BA8C7DF0077A257 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CBFA8C441BA8C7DF0077A257 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,7 +418,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBFA8C501BA8C7DF0077A257 /* Assets.xcassets in Resources */,
-				CBFA8C4E1BA8C7DF0077A257 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,9 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBFA8C4B1BA8C7DF0077A257 /* ViewController.m in Sources */,
-				CBFA8C481BA8C7DF0077A257 /* AppDelegate.m in Sources */,
-				CBFA8C451BA8C7DF0077A257 /* main.m in Sources */,
+				CB6ECF7B249AE081002C2832 /* AppDelegate.swift in Sources */,
 				CBD0DFF322A85C97009EB856 /* SG50View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,14 +483,6 @@
 				CB30EFC715B557C400F5977D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CBFA8C4C1BA8C7DF0077A257 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBFA8C4D1BA8C7DF0077A257 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -887,11 +855,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vonbelow.-0SoG-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_OBJC_BRIDGING_HEADER = "50SoG/50SoG tvOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
 			};
 			name = Debug;
 		};
@@ -916,10 +883,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vonbelow.-0SoG-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_OBJC_BRIDGING_HEADER = "50SoG/50SoG tvOS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
 			};
 			name = Release;
 		};
