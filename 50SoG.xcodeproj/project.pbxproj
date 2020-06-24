@@ -17,8 +17,6 @@
 		CB30EFC215B557C400F5977D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB30EFC115B557C400F5977D /* CoreGraphics.framework */; };
 		CB30EFC815B557C400F5977D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB30EFC615B557C400F5977D /* InfoPlist.strings */; };
 		CB58292319C79F4200B6F35D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB58292219C79F4200B6F35D /* Launch Screen.xib */; };
-		CB6ECEE3249AD175002C2832 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECEE2249AD175002C2832 /* ExtensionDelegate.swift */; };
-		CB6ECF3F249AD3C0002C2832 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECF3E249AD3C0002C2832 /* HostingController.swift */; };
 		CB6ECF40249AD3D6002C2832 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
 		CB6ECF63249ADEE8002C2832 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECF62249ADEE8002C2832 /* Interface.storyboard */; };
 		CB6ECF7B249AE081002C2832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECF7A249AE081002C2832 /* AppDelegate.swift */; };
@@ -102,8 +100,6 @@
 		CB30EFC515B557C400F5977D /* 50SoG-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "50SoG-Info.plist"; sourceTree = "<group>"; };
 		CB30EFC715B557C400F5977D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB58292219C79F4200B6F35D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
-		CB6ECEE2249AD175002C2832 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		CB6ECF3E249AD3C0002C2832 /* HostingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		CB6ECF62249ADEE8002C2832 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		CB6ECF7A249AE081002C2832 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB6ECF80249B43EA002C2832 /* 50SoG Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "50SoG Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,8 +172,6 @@
 		CB23B6341BA61852006DDF99 /* 50SoG WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				CB6ECEE2249AD175002C2832 /* ExtensionDelegate.swift */,
-				CB6ECF3E249AD3C0002C2832 /* HostingController.swift */,
 				CB23B63B1BA61852006DDF99 /* Assets.xcassets */,
 				CB23B63D1BA61852006DDF99 /* Info.plist */,
 			);
@@ -501,8 +495,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBAD9ECE24A3FA6500989CA4 /* SoG50App.swift in Sources */,
-				CB6ECF3F249AD3C0002C2832 /* HostingController.swift in Sources */,
-				CB6ECEE3249AD175002C2832 /* ExtensionDelegate.swift in Sources */,
 				CB6ECF40249AD3D6002C2832 /* SG50View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
