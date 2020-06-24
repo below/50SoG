@@ -19,7 +19,6 @@
 		CB58292319C79F4200B6F35D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB58292219C79F4200B6F35D /* Launch Screen.xib */; };
 		CB6ECF40249AD3D6002C2832 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
 		CB6ECF63249ADEE8002C2832 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECF62249ADEE8002C2832 /* Interface.storyboard */; };
-		CB6ECF7B249AE081002C2832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECF7A249AE081002C2832 /* AppDelegate.swift */; };
 		CB6ECF87249B43ED002C2832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECF86249B43ED002C2832 /* Assets.xcassets */; };
 		CB6ECF8A249B43ED002C2832 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECF89249B43ED002C2832 /* Preview Assets.xcassets */; };
 		CB6ECF8D249B43ED002C2832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECF8B249B43ED002C2832 /* Main.storyboard */; };
@@ -101,7 +100,6 @@
 		CB30EFC715B557C400F5977D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB58292219C79F4200B6F35D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		CB6ECF62249ADEE8002C2832 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
-		CB6ECF7A249AE081002C2832 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB6ECF80249B43EA002C2832 /* 50SoG Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "50SoG Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6ECF86249B43ED002C2832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6ECF89249B43ED002C2832 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -267,7 +265,6 @@
 		CBFA8C421BA8C7DF0077A257 /* 50SoG tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				CB6ECF7A249AE081002C2832 /* AppDelegate.swift */,
 				CBFA8C4F1BA8C7DF0077A257 /* Assets.xcassets */,
 				CBFA8C511BA8C7DF0077A257 /* Info.plist */,
 			);
@@ -529,7 +526,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6ECF7B249AE081002C2832 /* AppDelegate.swift in Sources */,
 				CBAD9ECF24A3FA6500989CA4 /* SoG50App.swift in Sources */,
 				CBD0DFF322A85C97009EB856 /* SG50View.swift in Sources */,
 			);
@@ -1026,7 +1022,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 13.0;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
 			name = Debug;
 		};
@@ -1053,7 +1049,7 @@
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 13.0;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
 			name = Release;
 		};
