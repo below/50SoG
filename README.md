@@ -11,7 +11,7 @@ It displays 50 shades of grey, from 100% white to 0% white. What did you think i
 That sounds trivial. Is this a joke?
 -------------------------------------
 
-No. This app has been a test bed for me, to try out supporting new screen sizes or new platforms like the ᴡᴀᴛᴄʜOS or tvOS. Most recently, I have updated it to all SwiftUI, which is a wonderful way to show that trivial apps can be build with minimal code in SwiftUI. Compare it to the old versions with lines and lines of boilerplate code. For all Apple Platforms, that is. Minimum deployment target to iOS 13, ᴡᴀᴛᴄʜOS 6.0, macOS 11 and tvOS 14, and you will need Xcode 12.
+No. This app has been a test bed for me, to try out supporting new screen sizes or new platforms like ᴡᴀᴛᴄʜOS or tvOS. Most recently, I have updated it to all SwiftUI, which is a wonderful way to show that trivial apps can be build with minimal code in SwiftUI. Compare it to the old versions with lines and lines of boilerplate code. For all Apple Platforms, that is. Minimum deployment target to iOS 13, ᴡᴀᴛᴄʜOS 6.0, macOS 11 and tvOS 14, and you will need Xcode 12.
 
 Catalyst App is left as an excercise to the reader
 
