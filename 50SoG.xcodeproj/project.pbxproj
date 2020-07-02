@@ -17,18 +17,16 @@
 		CB30EFC215B557C400F5977D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB30EFC115B557C400F5977D /* CoreGraphics.framework */; };
 		CB30EFC815B557C400F5977D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB30EFC615B557C400F5977D /* InfoPlist.strings */; };
 		CB58292319C79F4200B6F35D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB58292219C79F4200B6F35D /* Launch Screen.xib */; };
-		CB6ECEAB249ACEBD002C2832 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECEA9249ACEBD002C2832 /* SceneDelegate.swift */; };
-		CB6ECEAC249ACEBD002C2832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECEAA249ACEBD002C2832 /* AppDelegate.swift */; };
-		CB6ECEE3249AD175002C2832 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECEE2249AD175002C2832 /* ExtensionDelegate.swift */; };
-		CB6ECF3F249AD3C0002C2832 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECF3E249AD3C0002C2832 /* HostingController.swift */; };
 		CB6ECF40249AD3D6002C2832 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
 		CB6ECF63249ADEE8002C2832 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECF62249ADEE8002C2832 /* Interface.storyboard */; };
-		CB6ECF7B249AE081002C2832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECF7A249AE081002C2832 /* AppDelegate.swift */; };
-		CB6ECF83249B43EB002C2832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECF82249B43EB002C2832 /* AppDelegate.swift */; };
 		CB6ECF87249B43ED002C2832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECF86249B43ED002C2832 /* Assets.xcassets */; };
 		CB6ECF8A249B43ED002C2832 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECF89249B43ED002C2832 /* Preview Assets.xcassets */; };
 		CB6ECF8D249B43ED002C2832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECF8B249B43ED002C2832 /* Main.storyboard */; };
 		CB6ECF93249B4405002C2832 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
+		CBAD9ECD24A3FA6500989CA4 /* SoG50App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD9ECC24A3FA6500989CA4 /* SoG50App.swift */; };
+		CBAD9ECE24A3FA6500989CA4 /* SoG50App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD9ECC24A3FA6500989CA4 /* SoG50App.swift */; };
+		CBAD9ECF24A3FA6500989CA4 /* SoG50App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD9ECC24A3FA6500989CA4 /* SoG50App.swift */; };
+		CBAD9ED024A3FA6500989CA4 /* SoG50App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD9ECC24A3FA6500989CA4 /* SoG50App.swift */; };
 		CBD0DFF122A85C97009EB856 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
 		CBD0DFF322A85C97009EB856 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
 		CBE70BBF2280DEAC00C3A3E8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70BBE2280DEAC00C3A3E8 /* main.swift */; };
@@ -101,19 +99,14 @@
 		CB30EFC515B557C400F5977D /* 50SoG-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "50SoG-Info.plist"; sourceTree = "<group>"; };
 		CB30EFC715B557C400F5977D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB58292219C79F4200B6F35D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
-		CB6ECEA9249ACEBD002C2832 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB6ECEAA249ACEBD002C2832 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB6ECEE2249AD175002C2832 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		CB6ECF3E249AD3C0002C2832 /* HostingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		CB6ECF62249ADEE8002C2832 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
-		CB6ECF7A249AE081002C2832 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB6ECF80249B43EA002C2832 /* 50SoG Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "50SoG Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB6ECF82249B43EB002C2832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB6ECF86249B43ED002C2832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6ECF89249B43ED002C2832 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CB6ECF8C249B43ED002C2832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB6ECF8E249B43ED002C2832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB6ECF8F249B43ED002C2832 /* _0SoG_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _0SoG_Mac.entitlements; sourceTree = "<group>"; };
+		CBAD9ECC24A3FA6500989CA4 /* SoG50App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoG50App.swift; sourceTree = "<group>"; };
 		CBD0DFF022A85C97009EB856 /* SG50View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SG50View.swift; sourceTree = "<group>"; };
 		CBE70BBC2280DEAC00C3A3E8 /* 50SoGMaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 50SoGMaker; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE70BBE2280DEAC00C3A3E8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -177,8 +170,6 @@
 		CB23B6341BA61852006DDF99 /* 50SoG WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				CB6ECEE2249AD175002C2832 /* ExtensionDelegate.swift */,
-				CB6ECF3E249AD3C0002C2832 /* HostingController.swift */,
 				CB23B63B1BA61852006DDF99 /* Assets.xcassets */,
 				CB23B63D1BA61852006DDF99 /* Info.plist */,
 			);
@@ -188,6 +179,7 @@
 		CB30EFAE15B557C400F5977D = {
 			isa = PBXGroup;
 			children = (
+				CBAD9ECC24A3FA6500989CA4 /* SoG50App.swift */,
 				CBD0DFF022A85C97009EB856 /* SG50View.swift */,
 				CB30EFC315B557C400F5977D /* 50SoG */,
 				CB23B6251BA61852006DDF99 /* 50SoG WatchKit */,
@@ -226,8 +218,6 @@
 		CB30EFC315B557C400F5977D /* 50SoG */ = {
 			isa = PBXGroup;
 			children = (
-				CB6ECEAA249ACEBD002C2832 /* AppDelegate.swift */,
-				CB6ECEA9249ACEBD002C2832 /* SceneDelegate.swift */,
 				CB30EFC415B557C400F5977D /* Supporting Files */,
 				CB30C40C22A8926A00E8CF65 /* Images.xcassets */,
 			);
@@ -247,7 +237,6 @@
 		CB6ECF81249B43EB002C2832 /* 50SoG Mac */ = {
 			isa = PBXGroup;
 			children = (
-				CB6ECF82249B43EB002C2832 /* AppDelegate.swift */,
 				CB6ECF86249B43ED002C2832 /* Assets.xcassets */,
 				CB6ECF8B249B43ED002C2832 /* Main.storyboard */,
 				CB6ECF8E249B43ED002C2832 /* Info.plist */,
@@ -276,7 +265,6 @@
 		CBFA8C421BA8C7DF0077A257 /* 50SoG tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				CB6ECF7A249AE081002C2832 /* AppDelegate.swift */,
 				CBFA8C4F1BA8C7DF0077A257 /* Assets.xcassets */,
 				CBFA8C511BA8C7DF0077A257 /* Info.plist */,
 			);
@@ -398,7 +386,7 @@
 			attributes = {
 				CLASSPREFIX = SG;
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "AVB Software";
 				TargetAttributes = {
 					CB23B6231BA61852006DDF99 = {
@@ -503,8 +491,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6ECF3F249AD3C0002C2832 /* HostingController.swift in Sources */,
-				CB6ECEE3249AD175002C2832 /* ExtensionDelegate.swift in Sources */,
+				CBAD9ECE24A3FA6500989CA4 /* SoG50App.swift in Sources */,
 				CB6ECF40249AD3D6002C2832 /* SG50View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,9 +500,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBAD9ECD24A3FA6500989CA4 /* SoG50App.swift in Sources */,
 				CBD0DFF122A85C97009EB856 /* SG50View.swift in Sources */,
-				CB6ECEAC249ACEBD002C2832 /* AppDelegate.swift in Sources */,
-				CB6ECEAB249ACEBD002C2832 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,7 +509,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6ECF83249B43EB002C2832 /* AppDelegate.swift in Sources */,
+				CBAD9ED024A3FA6500989CA4 /* SoG50App.swift in Sources */,
 				CB6ECF93249B4405002C2832 /* SG50View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,7 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6ECF7B249AE081002C2832 /* AppDelegate.swift in Sources */,
+				CBAD9ECF24A3FA6500989CA4 /* SoG50App.swift in Sources */,
 				CBD0DFF322A85C97009EB856 /* SG50View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -608,7 +594,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				IBSC_MODULE = _0SoG_WatchKit_Extension;
 				INFOPLIST_FILE = "50SoG WatchKit/Info.plist";
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vonbelow.-0SoG.watchkitapp";
@@ -616,7 +602,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
@@ -649,14 +635,14 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				IBSC_MODULE = _0SoG_WatchKit_Extension;
 				INFOPLIST_FILE = "50SoG WatchKit/Info.plist";
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vonbelow.-0SoG.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
@@ -695,7 +681,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
@@ -733,7 +719,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
@@ -755,6 +741,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -780,8 +767,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MARKETING_VERSION = 2.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 2.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -806,6 +793,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -823,8 +811,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MARKETING_VERSION = 2.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 2.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -840,7 +828,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "50SoG/50SoG-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vonbelow.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -857,7 +845,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "50SoG/50SoG-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vonbelow.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -894,7 +882,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "50SoG Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vonbelow.-0SoG-Mac";
@@ -936,7 +924,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "50SoG Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vonbelow.-0SoG-Mac";
@@ -1034,7 +1022,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 13.0;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
 			name = Debug;
 		};
@@ -1061,7 +1049,7 @@
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 13.0;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
 			};
 			name = Release;
 		};
