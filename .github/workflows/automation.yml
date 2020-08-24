@@ -1,0 +1,14 @@
+name: Deploy
+
+on:
+  # Trigger the workflow on push
+  # but only for the mistress branch
+  push:
+    branches:
+      - mistress
+jobs:
+  Build:
+    runs-on: macOS-latest
+    steps:
+    - name: Dump file hierarchy
+      run: ls -R
