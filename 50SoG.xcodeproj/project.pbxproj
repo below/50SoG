@@ -18,7 +18,6 @@
 		CB30EFC815B557C400F5977D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB30EFC615B557C400F5977D /* InfoPlist.strings */; };
 		CB58292319C79F4200B6F35D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB58292219C79F4200B6F35D /* Launch Screen.xib */; };
 		CB6ECF40249AD3D6002C2832 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
-		CB6ECF63249ADEE8002C2832 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECF62249ADEE8002C2832 /* Interface.storyboard */; };
 		CB6ECF87249B43ED002C2832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECF86249B43ED002C2832 /* Assets.xcassets */; };
 		CB6ECF8A249B43ED002C2832 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECF89249B43ED002C2832 /* Preview Assets.xcassets */; };
 		CB6ECF8D249B43ED002C2832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECF8B249B43ED002C2832 /* Main.storyboard */; };
@@ -99,7 +98,6 @@
 		CB30EFC515B557C400F5977D /* 50SoG-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "50SoG-Info.plist"; sourceTree = "<group>"; };
 		CB30EFC715B557C400F5977D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB58292219C79F4200B6F35D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
-		CB6ECF62249ADEE8002C2832 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		CB6ECF80249B43EA002C2832 /* 50SoG Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "50SoG Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6ECF86249B43ED002C2832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6ECF89249B43ED002C2832 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -161,7 +159,6 @@
 		CB23B6251BA61852006DDF99 /* 50SoG WatchKit */ = {
 			isa = PBXGroup;
 			children = (
-				CB6ECF62249ADEE8002C2832 /* Interface.storyboard */,
 				CB23B6291BA61852006DDF99 /* Assets.xcassets */,
 				CB23B62B1BA61852006DDF99 /* Info.plist */,
 			);
@@ -449,7 +446,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6ECF63249ADEE8002C2832 /* Interface.storyboard in Resources */,
 				CB23B62A1BA61852006DDF99 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
