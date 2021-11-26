@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB036B6E274F9BD5004B85C4 /* SG50View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0DFF022A85C97009EB856 /* SG50View.swift */; };
+		CB036B8F2750D7E8004B85C4 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB036B8E2750D7E8004B85C4 /* ViewExtensions.swift */; };
 		CB23B62A1BA61852006DDF99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB23B6291BA61852006DDF99 /* Assets.xcassets */; };
 		CB23B6311BA61852006DDF99 /* 50SoG WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CB23B6301BA61852006DDF99 /* 50SoG WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CB23B63C1BA61852006DDF99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB23B63B1BA61852006DDF99 /* Assets.xcassets */; };
@@ -84,6 +86,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CB036B8E2750D7E8004B85C4 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		CB23B6241BA61852006DDF99 /* 50SoG WatchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "50SoG WatchKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB23B6291BA61852006DDF99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB23B62B1BA61852006DDF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -257,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				CBE70BBE2280DEAC00C3A3E8 /* main.swift */,
+				CB036B8E2750D7E8004B85C4 /* ViewExtensions.swift */,
 			);
 			path = 50SoGMaker;
 			sourceTree = "<group>";
@@ -521,6 +525,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBE70BBF2280DEAC00C3A3E8 /* main.swift in Sources */,
+				CB036B8F2750D7E8004B85C4 /* ViewExtensions.swift in Sources */,
+				CB036B6E274F9BD5004B85C4 /* SG50View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -964,7 +970,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -998,7 +1004,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

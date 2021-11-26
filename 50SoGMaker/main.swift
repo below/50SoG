@@ -9,33 +9,45 @@
 import AppKit
 import Darwin
 
-guard CommandLine.arguments.count > 1, let sizeParameter = Int(CommandLine.arguments[1]) else {
+guard CommandLine.arguments.count > 1, var width = Int(CommandLine.arguments[1]) else {
+    let name: String
+    if let url = URL(string: CommandLine.arguments[0]) {
+        name = url.lastPathComponent
+    } else {
+        name = "SG50Maker"
+    }
+    fputs("usage: \(name) <width> [<height>]\n", stderr)
     exit (EXIT_FAILURE)
 }
 
-let size = NSSize(width: sizeParameter, height: sizeParameter)
+var height: Int = width
+if CommandLine.arguments.count > 2, let heightParameter = Int(CommandLine.arguments[2]) {
+    height = heightParameter
+}
+let size = NSSize(width: Double(width), height: Double(height))
 
-guard let rep = NSBitmapImageRep(bitmapDataPlanes: nil, pixelsWide: Int(size.width), pixelsHigh: Int(size.height), bitsPerSample: 8, samplesPerPixel: 4, hasAlpha: true, isPlanar: false, colorSpaceName: .calibratedRGB, bytesPerRow: 0, bitsPerPixel: 0) else {
+guard let image = SG50View().renderAsImage(size: size) else {
+    fputs("Creation of image failed\n", stderr)
     exit(EXIT_FAILURE)
 }
 
-let gtx = NSGraphicsContext.init(bitmapImageRep: rep)
-NSGraphicsContext.saveGraphicsState()
-NSGraphicsContext.current = gtx
-
-let rect = CGRect(x: 0, y: 0, width: size.width, height: size.height)
-drawShades(rect: rect, bounds: rect)
-
-NSGraphicsContext.restoreGraphicsState()
+guard let cgRef = image.cgImage(forProposedRect: nil, context: nil, hints: nil) else {
+    fputs("cgRef failed\n", stderr)
+    exit(EXIT_FAILURE)
+}
+let rep = NSBitmapImageRep.init(cgImage: cgRef)
+rep.size = image.size // if you want the same resolution
 
 guard let data = rep.representation(using: .png, properties: [:]) else {
+    fputs("Unable to create data representation\n", stderr)
     exit(EXIT_FAILURE)
 }
 
 do {
-    let url = URL.init(fileURLWithPath: "\(sizeParameter).png")
+    let url = URL.init(fileURLWithPath: "\(width).png\n")
     try data.write(to: url)
 }
 catch {
+    fputs("Unable to write file: \(error)\n", stderr)
     exit (EXIT_FAILURE)
 }
